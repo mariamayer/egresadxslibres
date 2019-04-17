@@ -1,5 +1,7 @@
 jQuery(document).ready(function ($) {
 
+  initClickEvents();
+
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -153,7 +155,7 @@ jQuery(document).ready(function ($) {
   });
 
   // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
+    /*$(".clients-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
@@ -168,7 +170,58 @@ jQuery(document).ready(function ($) {
         items: 6
       }
     }
-  });
+  });*/
+
+
+
+  function initClickEvents(){
+    $( ".btn-continuar" ).click(function() {
+      var hideDiv = '#'+$(this).data('hide');
+      var showDiv = '#'+$(this).data('show');
+      if($(this).data('show') == 'paso-2') {
+        var selected = $("input[name='modelo']:checked");
+        var radioValue = selected.val();
+        var hideItems = selected.data('hide');
+        $.each(hideItems, function( index, value ) {
+          $('#opcion-'+value).hide();
+        });
+
+        // Elements to inject
+        $('.svg').attr('src','http://innovateordie.com.ar/svg/'+radioValue);
+        var mySVGsToInject = $('.svg');
+        var injectorOptions = {
+          evalScripts: 'once',
+          pngFallback: 'img/buzos',
+          each: function (svg) {
+            // Callback after each SVG is injected
+            console.log('SVG injected ');
+          }
+        };
+
+        SVGInjector(mySVGsToInject, injectorOptions, function (totalSVGsInjected) {
+          console.log('We injected ' + totalSVGsInjected + ' SVG(s)!');
+        });
+      }
+      $(hideDiv).fadeOut();
+      $(showDiv).fadeIn();
+    });
+
+    $('.card-header .btn-link').click(function(event) {
+      event.preventDefault();
+    });
+
+    $('.card .label').each(function() {
+      var color = $(this).data("color");
+      $(this).css('background',color);
+    });
+
+    $('.card .label').click(function() {
+      var path = $(this).data("path");
+      var color = $(this).data("color");
+      $(path).css('fill',color);
+    });
+  }
+
 
 
 });
