@@ -929,123 +929,40 @@ line-height: 1.2em;
   color: #0c2e8a;
 }
 
+
+
 /*--------------------------------------------------------------
-# Diseña tu Buzo
+# Modelos
 --------------------------------------------------------------*/
-
-.disena-tu-buzo .buzo-heading {
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  margin-bottom: 50px;
-}
-
-.disena-tu-buzo .section {
-  padding: 50px 0;
-}
-
-.disena-tu-buzo [type=radio] {
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.disena-tu-buzo [type=radio] + img {
-  cursor: pointer;
-  width: 80%;
-  left: 10%;
-  position: relative;
-}
-
-.disena-tu-buzo [type=radio]:checked + img {
-  outline: 3px solid #50d8af;
-}
-
-.disena-tu-buzo .input-modelo h3 {
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  margin-top: 15px;
-}
-
-.disena-tu-buzo .btn-continuar {
-    text-transform: uppercase;
-    margin: auto;
-    color: #fff;
-    background: #000;
-    border-radius: 0;
-    width: 180px;
-}
-
-#paso-2 {
-  display: none;
-}
-
-#accordion {
-  padding-top: 90px;
-}
-
-.disena-tu-buzo .label {
+.circulocolor {
+  width: 12%;
+  height: auto;
   display: inline-block;
+  padding: 2%;
+}
+
+.circle {
   position: relative;
-  margin: 5px;
-  cursor: pointer;
-  height: 20px;
-  width: 20px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  background: red;
 }
 
-.disena-tu-buzo .label input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+.cuadroestampa {
+  width: 15%;
+  height: auto;
+  display: inline-block;
+  padding: 2%;
+
 }
 
-.disena-tu-buzo .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-}
-
-.disena-tu-buzo .label input:checked ~ .checkmark {
-  border: 1px solid #000;
-}
-
-.disena-tu-buzo .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.disena-tu-buzo .label input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.disena-tu-buzo .card {
-  border: 0;
-}
-
-
-.disena-tu-buzo .card-header {
-  background: #fff;
-  border: 0;
-}
-
-.disena-tu-buzo .card-header .btn {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 0;
-  color: #444444;
-}
-
-.disena-tu-buzo .card-header .fa {
-  font-size: 14px;
+.marcoestampa {
+  position: relative;
+  border-radius: 0%;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  background: red;
 }
