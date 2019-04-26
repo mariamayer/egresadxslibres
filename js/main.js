@@ -178,12 +178,12 @@ jQuery(document).ready(function ($) {
     $( ".btn-continuar" ).click(function() {
       var hideDiv = '#'+$(this).data('hide');
       var showDiv = '#'+$(this).data('show');
-      if($(this).data('show') == 'paso-2') {
+      if($(this).data('show') == 'paso-2' || $(this).data('show') == 'paso-3') {
         var selected = $("input[name='modelo']:checked");
         var radioValue = selected.val();
         var hideItems = selected.data('hide');
         $.each(hideItems, function( index, value ) {
-          $('#opcion-'+value).hide();
+          $('.opcion-'+value).hide();
         });
 
         // Elements to inject
@@ -219,6 +219,11 @@ jQuery(document).ready(function ($) {
       var path = $(this).data("path");
       var color = $(this).data("color");
       $(path).css('fill',color);
+    });
+
+    $('.card .detalles').click(function() {
+      var path = $(this).data("path");
+      $(path).css('fill','#50d8af');
     });
   }
 
