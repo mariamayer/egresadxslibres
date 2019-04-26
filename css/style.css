@@ -918,7 +918,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Diseña tu Buzo
 --------------------------------------------------------------*/
-<<<<<<< Updated upstream
 
 .disena-tu-buzo .label-title {
     font-size: 1rem;
@@ -934,13 +933,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .disena-tu-buzo .section {
   padding: 50px 0;
-=======
-.circulocolor {
-  width: 11%;
-  height: auto;
-  display: inline-block;
-  padding: 1.5%;
->>>>>>> Stashed changes
 }
 
 .disena-tu-buzo [type=radio] {
@@ -957,23 +949,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
-<<<<<<< Updated upstream
 .disena-tu-buzo .input-estilo [type=radio] + img {
   left: 0;
 }
-=======
+
 .cuadroestampa {
   width: 25%;
   height: auto;
   display: inline-block;
   padding: 2%;
->>>>>>> Stashed changes
+}
 
 .disena-tu-buzo [type=radio]:checked + img {
   outline: 3px solid #50d8af;
 }
 
-<<<<<<< Updated upstream
 .disena-tu-buzo .input-tamano [type=radio]:checked + p {
   outline: 3px solid #50d8af;
   border: 0;
@@ -995,6 +985,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   letter-spacing: 1px;
   margin-top: 15px;
+  font-size: 1em;
 }
 
 .disena-tu-buzo .btn-continuar {
@@ -1076,14 +1067,49 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .disena-tu-buzo .card-header .fa {
   font-size: 14px;
-=======
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Modelos
+--------------------------------------------------------------*/
+.imagengrande {
+  width: 100%;
+}
+
+.circulocolor {
+  width: 11%;
+  height: auto;
+  display: inline-block;
+  padding: 1.5%;
+
+  }
+
+  .circle {
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  background: red;
+}
+
+
+
 .marcoestampa {
   width: 100%;
 }
 
-.imagengrande {
-  width: 100%;
+.cuadroestampa {
+  width: 25%;
+  height: auto;
+  display: inline-block;
+  padding: 2%;
 }
+
 
 .titulosseccion {
   color: #000000 !important;
@@ -1186,7 +1212,7 @@ line-height: 1.2em;
 @media (max-width: 576px) {
 .circulocolor {
   width: 30%;
-  padding: 5%;
+  padding: 3%;
   }
 
   .cuadroestampa {
@@ -1196,6 +1222,4 @@ line-height: 1.2em;
     padding: 2%;
 
   }
-
->>>>>>> Stashed changes
 }
