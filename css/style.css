@@ -30,7 +30,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -519,6 +519,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
+
+
 /* Espacio texto
 --------------------------------*/
 #espaciotexto {
@@ -534,6 +536,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 0.2em;
   font-size: 0.7em;
 }
+
+
+#modelos {
+background: #98eeff;
+color: #9836ff;
+}
+
+.titulopedidos{
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+font-weight: lighter;
+}
+
+
+.cuerpopedidos {
+  color: black;
+}
+
+
 
 #about .about-img {
   overflow: hidden;
@@ -927,7 +948,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
-  margin-bottom: 50px;
 }
 
 .disena-tu-buzo .section {
@@ -960,7 +980,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .disena-tu-buzo [type=radio]:checked + img {
-  outline: 3px solid #50d8af;
+  outline: 2px dotted #50d8af;
 }
 
 .disena-tu-buzo .input-tamano [type=radio]:checked + p {
@@ -1075,6 +1095,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Modelos
 --------------------------------------------------------------*/
+
 .imagengrande {
   width: 100%;
 }

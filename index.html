@@ -13,6 +13,7 @@
 
   <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -37,15 +38,14 @@
     <div class="container clearfix">
       <div class="contact-info float-left d-flex">
         <div class="mailsuperior">
-          <i class="fa fa-envelope-o"></i> <a href="mailto:contacto@egresadxslibres.com.ar">contacto@egresadxslibres.com.ar</a>
+          <i class="fa fa-envelope-o"></i> <a href="mailto:libresegresados@hotmail.com">libresegresados@hotmail.com</a>
         </div>
         <div class="">
-          <i class="fa fa-whatsapp"></i> 15 4567 4565
+          <i class="fa fa-whatsapp"></i>+11 3852 0928
         </div>
       </div>
       <div class="social-links float-right">
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.instagram.com/libresegresados/" class="instagram"><i class="fa fa-instagram"></i></a>
       </div>
     </div>
   </section>
@@ -109,9 +109,37 @@
     ============================-->
 
 
-    <section id="modelos">
+    <section id="modelos" class="pb-5">
       <img class="imagengrande" src="img/fondo02.jpg" alt="">
-      <img class="imagengrande" src="img/fondo03.png" alt="">
+      <h3 class="titulopedidos text-center my-5">
+        ¿Cómo hacer tu pedido?
+      </h3>
+      <div class="container d-flex my-5">
+        <div class="col-lg-3 col-md-4">
+          <h1 class="">1_ </h1>
+          <p class="cuerpopedidos"> ELEGÍ ENTRE LOS MODELOS O DISEÑÁ UNO PROPIO.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <h1 class="">2_ </h1>
+          <p class="cuerpopedidos"> NOS CONTACTÁS, SEÑÁS Y PACTAMOS.<br>Pagás el saldo y recibís tus prendas.</p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-4">
+          <h1 class="">3_ </h1>
+          <p class="cuerpopedidos"> ELIGEN LOS TALLES. <br>Tenemos 6 talles para que se prueben.</p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-4">
+          <h1 class="">4_ </h1>
+          <p class="cuerpopedidos"> TE LLEVÁS LOS BUZOS!. <br>Pagás el saldo y recibís tus prendas.</p>
+        </div>
+
+      </div>
+
+
     </section><!-- #intro -->
 
     <!--==========================
@@ -221,21 +249,23 @@
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
-              <address>Av. Federico Lacroze 4567 </address>
+              <address>Av. Federico Lacroze 4181, 1er piso, CABA </address>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <p><a href="tel:+54 9 11 5141 8394">+54 9 11 5141 8394</a></p>
+              <i class="ion-iphone"></i>
+              <p><a href="tel:+54 9  011 4552-1518">Llamadas (011) 4552-1518</a></p>
+              <p>Whatsapp: +11 3852 0928 </p>
+
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
-              <p><a href="mailto:contacto@egresadxslibres.com.ar">contacto@egresadxslibres.com.ar</a></p>
+              <p><a href="mailto:libresegresados@hotmail.com">libresegresados@hotmail.com</a></p>
             </div>
           </div>
 
@@ -247,32 +277,31 @@
         <div class="row justify-content-lg-center">
         <div class="col-lg-10">
 
-
         <div class="form">
           <div id="sendmessage">Su mensaje ha sido enviado. Muchas gracias!</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="contacto.php" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre" data-rule="minlen:4" data-msg="Ingresar al menos 4 caracteres." />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="school" placeholder="Escuela" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="school" placeholder="Escuela" data-rule="minlen:4" data-msg="Ingresar al menos 4 caracteres." />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Ingresar un correo válido" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Teléfono" data-rule="minlen:4" data-msg="Ingresá un teléfono válido" />
                 <div class="validation"></div>
               </div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+              <textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Escribí tu pedido o consulta" placeholder="Mensaje"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit">Enviar</button></div>
