@@ -972,6 +972,11 @@ font-weight: lighter;
   left: 0;
 }
 
+.disena-tu-buzo .input-fuente [type=radio] + img {
+  cursor: pointer;
+  width: 100%;
+}
+
 .cuadroestampa {
   width: 25%;
   height: auto;

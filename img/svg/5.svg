@@ -1,1 +1,109 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000"><defs><style>.cls-1,.cls-2{fill:none;stroke:#000;stroke-miterlimit:10;}.cls-2{stroke-dasharray:3;}</style></defs><title>Artboard 2 copy 6</title><path class="cls-1 frente-izquierdo" d="M400.5,234c-83-1.76-99.17-87.77-104.78-87.77-32,0-63.51,5.12-109.39,11-32.5,4.8-48.23,42.48-49.14,53.45-2,23.41,50.16,175.55,51.22,188,2,23.78,6.72,264.35,7,462.55,24.43-5.25,55.14-7.18,205.14-9.92Z"/><line class="cls-2" x1="399.5" y1="233" x2="399.5" y2="856"/><path class="cls-1 frente-derecho" d="M402.5,234c83-1.76,99-87.77,104.63-87.77,32,0,63.43,5.12,109.32,11,32.49,4.8,48.19,42.48,49.11,53.45,2,23.41-50.19,175.55-51.25,188-2,23.78-6.57,264.35-6.8,462.55-24.43-5.25-54-7.18-205-9.92Z"/><line class="cls-2" x1="403.5" y1="233" x2="403.5" y2="856"/><path class="cls-1 manga-izquierda" d="M131.51,227.29s49.26,150.5,52,181.93c5.48,56.12,9.94,294.28-15.21,453.28H77.79C47.61,630.5,98.82,256.44,131.51,227.29Z"/><polygon class="cls-1 punos" points="77.79 865.5 168.31 865.5 155.28 940.5 88.41 940.5 77.79 865.5"/><path class="cls-1 manga-derecha" d="M673.17,227.29s-49.27,150.5-52,181.93c-5.49,56.12-9.95,294.28,15.2,453.28h90.53C757.07,630.5,705.86,256.44,673.17,227.29Z"/><polygon class="cls-1 punos" points="726.89 865.5 636.36 865.5 649.39 940.5 716.27 940.5 726.89 865.5"/><path class="cls-1 cuello" d="M302.2,146.92c5.34,0,20.21,82.07,100.14,83.64,79.92-1.57,94.79-83.64,100.14-83.64,0,0-14.35-1.5-17,3.86-10.29,20.76-28.29,65.49-83.13,66.71-54.84-1.22-74.54-45.19-83.14-66.71C317.06,145.42,302.2,146.92,302.2,146.92Z"/><path class="cls-1" d="M607.78,865.38c-24.43-5.25-54.58-7.26-205.44-10-150.86,2.74-181,4.67-205.45,9.92l8.46,43.41c24.44-1.9,46.13-2.6,197-3.59,150.86,1,167.68.86,192.12,2.76Z"/><path class="cls-1 borde" d="M234.5,786.1c7.39-6.28,55.89-61.72,67.55-117.85.13-.63-3.76-.52-5.15-.56-3.71-.12-5.42.79-6,3.19-14.73,56.17-51.13,95.22-58.53,101.5-.9.78-2.3,3-1.77,6.35C230.83,780.53,234.2,786.35,234.5,786.1Z"/><path class="cls-1 borde" d="M562.72,786.1c-7.4-6.28-55.9-61.72-67.56-117.85-.13-.63,3.77-.52,5.15-.56,3.71-.12,5.43.79,6.06,3.19,14.72,56.17,51.13,95.22,58.52,101.5.91.78,2.3,3,1.77,6.35C566.38,780.53,563,786.35,562.72,786.1Z"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000"><defs>  <pattern id="textura-1" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/01.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-2" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/02.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-3" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/03.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-4" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/04.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-5" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/05.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-6" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/06.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-7" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/07.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-8" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/08.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-9" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/09.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-10" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/10.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-11" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/11.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-12" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/12.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-13" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/13.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-14" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/14.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-15" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/15.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-15" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/15.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-16" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/16.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-17" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/17.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-18" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/18.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-19" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/19.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-20" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/20.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-21" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/21.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-22" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/22.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-23" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/23.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-24" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/24.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-25" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/25.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-26" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/26.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-27" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/27.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-28" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/28.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-29" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/29.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-30" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/30.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-31" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/31.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-32" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/32.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-33" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/33.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-34" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/34.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <pattern id="textura-35" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="http://innovateordie.com.ar/svg/texturas/35.jpg" x="-10%" y="0" width="100%" height="100%"></image>
+  </pattern>
+  <style>.cls-1,.cls-2{fill:none;stroke:#000;stroke-miterlimit:10;}.cls-2{stroke-dasharray:3;}</style></defs><title>Artboard 2 copy 6</title><path class="cls-1 frente-izquierdo" d="M400.5,234c-83-1.76-99.17-87.77-104.78-87.77-32,0-63.51,5.12-109.39,11-32.5,4.8-48.23,42.48-49.14,53.45-2,23.41,50.16,175.55,51.22,188,2,23.78,6.72,264.35,7,462.55,24.43-5.25,55.14-7.18,205.14-9.92Z"/><line class="cls-2" x1="399.5" y1="233" x2="399.5" y2="856"/><path class="cls-1 frente-derecho" d="M402.5,234c83-1.76,99-87.77,104.63-87.77,32,0,63.43,5.12,109.32,11,32.49,4.8,48.19,42.48,49.11,53.45,2,23.41-50.19,175.55-51.25,188-2,23.78-6.57,264.35-6.8,462.55-24.43-5.25-54-7.18-205-9.92Z"/><line class="cls-2" x1="403.5" y1="233" x2="403.5" y2="856"/><path class="cls-1 manga-izquierda" d="M131.51,227.29s49.26,150.5,52,181.93c5.48,56.12,9.94,294.28-15.21,453.28H77.79C47.61,630.5,98.82,256.44,131.51,227.29Z"/><polygon class="cls-1 punos" points="77.79 865.5 168.31 865.5 155.28 940.5 88.41 940.5 77.79 865.5"/><path class="cls-1 manga-derecha" d="M673.17,227.29s-49.27,150.5-52,181.93c-5.49,56.12-9.95,294.28,15.2,453.28h90.53C757.07,630.5,705.86,256.44,673.17,227.29Z"/><polygon class="cls-1 punos" points="726.89 865.5 636.36 865.5 649.39 940.5 716.27 940.5 726.89 865.5"/><path class="cls-1 cuello" d="M302.2,146.92c5.34,0,20.21,82.07,100.14,83.64,79.92-1.57,94.79-83.64,100.14-83.64,0,0-14.35-1.5-17,3.86-10.29,20.76-28.29,65.49-83.13,66.71-54.84-1.22-74.54-45.19-83.14-66.71C317.06,145.42,302.2,146.92,302.2,146.92Z"/><path class="cls-1" d="M607.78,865.38c-24.43-5.25-54.58-7.26-205.44-10-150.86,2.74-181,4.67-205.45,9.92l8.46,43.41c24.44-1.9,46.13-2.6,197-3.59,150.86,1,167.68.86,192.12,2.76Z"/><path class="cls-1 borde" d="M234.5,786.1c7.39-6.28,55.89-61.72,67.55-117.85.13-.63-3.76-.52-5.15-.56-3.71-.12-5.42.79-6,3.19-14.73,56.17-51.13,95.22-58.53,101.5-.9.78-2.3,3-1.77,6.35C230.83,780.53,234.2,786.35,234.5,786.1Z"/><path class="cls-1 borde" d="M562.72,786.1c-7.4-6.28-55.9-61.72-67.56-117.85-.13-.63,3.77-.52,5.15-.56,3.71-.12,5.43.79,6.06,3.19,14.72,56.17,51.13,95.22,58.52,101.5.91.78,2.3,3,1.77,6.35C566.38,780.53,563,786.35,562.72,786.1Z"/></svg>
