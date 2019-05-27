@@ -233,7 +233,7 @@ jQuery(document).ready(function ($) {
 
     $('.card .detalles').click(function() {
       var path = $(this).data("path");
-      $(path).css('fill','#50d8af');
+      $(path).css('stroke','#50d8af');
     });
   }
 
