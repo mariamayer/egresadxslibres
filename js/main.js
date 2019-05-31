@@ -212,18 +212,28 @@ jQuery(document).ready(function ($) {
 
     $('.card .label').each(function() {
       var color = $(this).data("color");
-      $(this).css('background',color);
+      var img = $(this).data("img");
+      if(color) {
+        $(this).css('background',color);
+      } else {
+        $(this).css({'background': 'url(' + img + ')', 'background-size': 'cover'});
+      }
     });
 
     $('.card .label').click(function() {
       var path = $(this).data("path");
       var color = $(this).data("color");
-      $(path).css('fill',color);
+      var textura = $(this).data("textura");
+      if(color) {
+        $(path).css('fill',color);
+      } else {
+        $(path).css('fill','url(' + textura + ')');
+      }
     });
 
     $('.card .detalles').click(function() {
       var path = $(this).data("path");
-      $(path).css('fill','#50d8af');
+      $(path).css('stroke','#50d8af');
     });
   }
 
