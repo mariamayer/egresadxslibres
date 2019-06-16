@@ -861,10 +861,14 @@ font-weight: lighter;
     color: #fff;
     background: #000;
     border-radius: 0;
-    width: 180px;
+    width: 250px;
 }
 
 .pasos {
+  display: none;
+}
+
+.svg-espalda {
   display: none;
 }
 
@@ -936,6 +940,9 @@ font-weight: lighter;
   font-size: 14px;
 }
 
+#paso-4 input {
+  width: 100%;
+}
 
 
 

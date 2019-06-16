@@ -178,17 +178,20 @@ jQuery(document).ready(function ($) {
     $( ".btn-continuar" ).click(function() {
       var hideDiv = '#'+$(this).data('hide');
       var showDiv = '#'+$(this).data('show');
-      if($(this).data('show') == 'paso-2' || $(this).data('show') == 'paso-3') {
+      if($(this).data('show') == 'paso-2') {
         var selected = $("input[name='modelo']:checked");
         var radioValue = selected.val();
         var hideItems = selected.data('hide');
+        var espalda = selected.data('espalda');
         $.each(hideItems, function( index, value ) {
           $('.opcion-'+value).hide();
         });
 
         // Elements to inject
-        $('.svg').attr('src','http://innovateordie.com.ar/svg/'+radioValue);
-        var mySVGsToInject = $('.svg');
+        $('.svg-frente').attr('src','http://innovateordie.com.ar/svg/'+radioValue);
+        $('.svg-espalda').attr('src','http://innovateordie.com.ar/svg/'+espalda);
+        var mySVGsToInject = $('#svg-paso-2 .svg');
+        console.log(mySVGsToInject);
         var injectorOptions = {
           evalScripts: 'once',
           pngFallback: 'img/buzos',
@@ -201,6 +204,9 @@ jQuery(document).ready(function ($) {
         SVGInjector(mySVGsToInject, injectorOptions, function (totalSVGsInjected) {
           console.log('We injected ' + totalSVGsInjected + ' SVG(s)!');
         });
+      } else if ($(this).data('show') == 'paso-3') {
+        var svg = $('#svg-paso-2 .svg');
+        $('#svg-paso-3').append(svg);
       }
       $(hideDiv).fadeOut();
       $(showDiv).fadeIn();
@@ -226,14 +232,21 @@ jQuery(document).ready(function ($) {
       var textura = $(this).data("textura");
       if(color) {
         $(path).css('fill',color);
-      } else {
+        $(this).find('input').val(color)
+      } else if (textura) {
         $(path).css('fill','url(' + textura + ')');
+        $(this).find('input').val(textura)
       }
     });
 
-    $('.card .detalles').click(function() {
-      var path = $(this).data("path");
-      $(path).css('stroke','#50d8af');
+    $('.card').click(function() {
+      if($(this).hasClass('opcion-espalda')) {
+        $('.svg-frente').hide();
+        $('.svg-espalda').show();
+      }else{
+        $('.svg-frente').show();
+        $('.svg-espalda').hide();
+      }
     });
   }
 
