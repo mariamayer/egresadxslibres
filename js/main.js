@@ -188,8 +188,8 @@ jQuery(document).ready(function ($) {
         });
 
         // Elements to inject
-        $('.svg-frente').attr('src','http://innovateordie.com.ar/svg/'+radioValue);
-        $('.svg-espalda').attr('src','http://innovateordie.com.ar/svg/'+espalda);
+        $('.svg-frente').attr('src','img/svg/'+radioValue);
+        $('.svg-espalda').attr('src','img/svg/'+espalda);
         var mySVGsToInject = $('#svg-paso-2 .svg');
         console.log(mySVGsToInject);
         var injectorOptions = {
@@ -247,6 +247,13 @@ jQuery(document).ready(function ($) {
         $('.svg-frente').show();
         $('.svg-espalda').hide();
       }
+    });
+
+    $('#paso-3 .form-group').click(function() {
+      $('.frente,.frente-izquierdo,.frente-derecho,.punos,.capucha,.espalda,.manga-derecha,.manga-izquierda').css({'stroke':'#000','stroke-width':'1px'});
+      var path = $(this).closest('.card').find('.detalles').data('path');
+      $(path).css({'stroke':'#50d8af','stroke-width':'5px'});
+
     });
   }
 
