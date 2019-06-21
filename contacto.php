@@ -10,8 +10,16 @@ if (!$_POST){
 <?php
 }else{
 
+<<<<<<< Updated upstream
     if(isset($_POST['comments'])){
         $comments 	 = $_POST['coments'];
+=======
+    $cuerpo = "Nombre: " . $_POST["nombre"] . "\r \n";
+    $cuerpo .= "Correo: " . $_POST["email"] . "\r \n";
+    $cuerpo .= "Escuela: " . $_POST["school"] . "\r \n";
+    $cuerpo .= "Telefono: " . $_POST["subject"] . "\r \n";
+    $cuerpo .= "Mensaje: " . $_POST["mensaje"] . "\r \n";
+>>>>>>> Stashed changes
 
         $cuerpo = '
         <html>
