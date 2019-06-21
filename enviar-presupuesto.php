@@ -66,5 +66,5 @@
 		mail($to,$subject,$message,$headers);
 	}
 
-	include 'confirma_contacto.html';
+	include 'confirma_presupuesto.html';
  ?>
