@@ -1,4 +1,13 @@
 <?php
+$remitente = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+$nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_EMAIL);
+$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+$destinatario = 'marupezzati@gmail.com'; // en esta línea va el mail del destinatario, puede ser una cuenta de hotmail, yahoo, gmail, etc
+$asunto = 'Pedido de presupuesto desde Egresadxs'; // acá se puede modificar el asunto del mail
+if (!$_POST){
+?>
+
+<?php
 
 	/* ==========================  Define variables ========================== */
 
@@ -40,6 +49,10 @@
 			<tr>
 			  <th align="right">E-mail:</th>
 			  <td align="left">'. $mail .'</td>
+			</tr>
+			<tr>
+				<th align="right">E-mail:</th>
+				<td align="left">'. $telephone .'</td>
 			</tr>
 			<tr>
 				<th align="right">Comentarios:</th>
