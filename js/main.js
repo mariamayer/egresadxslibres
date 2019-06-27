@@ -188,8 +188,8 @@ jQuery(document).ready(function ($) {
         });
 
         // Elements to inject
-        $('.svg-frente').attr('src','img/svg/'+radioValue);
-        $('.svg-espalda').attr('src','img/svg/'+espalda);
+        $('.svg-frente').attr('src','http://innovateordie.com.ar/svg/'+radioValue);
+        $('.svg-espalda').attr('src','http://innovateordie.com.ar/svg/'+espalda);
         var mySVGsToInject = $('#svg-paso-2 .svg');
         console.log(mySVGsToInject);
         var injectorOptions = {
@@ -234,8 +234,13 @@ jQuery(document).ready(function ($) {
         $(path).css('fill',color);
         $(this).find('input').val(color)
       } else if (textura) {
-        $(path).css('fill','url(' + textura + ')');
-        $(this).find('input').val(textura)
+        if($('.svg-frente').is(":visible") ) {
+            var ending = getEnding('.svg-frente');
+        } else {
+            var ending = getEnding('.svg-espalda');
+        }
+        $(path).css('fill','url(' + textura + '' + ending + ')');
+        $(this).find('input').val(textura);
       }
     });
 
@@ -255,6 +260,10 @@ jQuery(document).ready(function ($) {
       $(path).css({'stroke':'#50d8af','stroke-width':'5px'});
 
     });
+  }
+
+  function getEnding( svgClass ) {
+      return $(svgClass).find('pattern:first-child').attr('id').slice(-2);
   }
 
 
