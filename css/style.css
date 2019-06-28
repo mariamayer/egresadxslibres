@@ -936,6 +936,12 @@ font-weight: lighter;
   color: #444444;
 }
 
+.btn-link:hover {
+    text-decoration: none !important;
+    font-weight: bold;
+  }
+
+
 .disena-tu-buzo .card-header .fa {
   font-size: 14px;
 }
