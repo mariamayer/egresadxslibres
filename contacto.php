@@ -55,7 +55,7 @@ if (!$_POST){
     }
 
     $headers  = "MIME-Version: 1.0\n";
-    $headers .= "Content-type: text/plain; charset=utf-8\n";
+    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
     $headers .= "X-Priority: 3\n";
     $headers .= "X-MSMail-Priority: Normal\n";
     $headers .= "X-Mailer: php\n";
