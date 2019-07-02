@@ -2,7 +2,7 @@
 $remitente = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_EMAIL);
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-$destinatario = 'libresegresadxs@hotmail.com'; // en esta línea va el mail del destinatario, puede ser una cuenta de hotmail, yahoo, gmail, etc
+$destinatario = 'emilia@cooperativadedisenio.com'; // en esta línea va el mail del destinatario, puede ser una cuenta de hotmail, yahoo, gmail, etc
 $asunto = 'Mensaje desde Egresadxs'; // acá se puede modificar el asunto del mail
 if (!$_POST){
 ?>
@@ -14,8 +14,8 @@ if (!$_POST){
         $comments 	 = $_POST['coments'];
     $cuerpo = "Nombre: " . $_POST["nombre"] . "\r \n";
     $cuerpo .= "Correo: " . $_POST["email"] . "\r \n";
-    $cuerpo .= "Escuela: " . $_POST["school"] . "\r \n";
-    $cuerpo .= "Telefono: " . $_POST["subject"] . "\r \n";
+    $cuerpo .= "Escuela: " . $_POST["escuela"] . "\r \n";
+    $cuerpo .= "Telefono: " . $_POST["telefono"] . "\r \n";
     $cuerpo .= "Mensaje: " . $_POST["mensaje"] . "\r \n";
 
         $cuerpo = '
@@ -48,6 +48,7 @@ if (!$_POST){
         $cuerpo = "Nombre: " . $_POST["nombre"] . "\r \n";
         $cuerpo .= "Correo: " . $_POST["email"] . "\r \n";
         $cuerpo .= "Escuela: " . $_POST["escuela"] . "\r \n";
+        $cuerpo .= "Telefono: " . $_POST["telefono"] . "\r \n";
         $cuerpo .= "Mensaje: " . $_POST["mensaje"] . "\r \n";
 
     	//las líneas de arriba definen el contenido del mail. Las palabras que están dentro de $_POST[""] deben coincidir con el "name" de cada campo.
