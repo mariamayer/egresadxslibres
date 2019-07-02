@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 1000" style="enable-background:new 0 0 800 1000;" xml:space="preserve">
+<defs>
+	<pattern id="textura-1" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/01.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-2" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/02.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-3" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/03.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-4" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/04.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-5" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/05.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-6" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/06.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-7" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/07.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-8" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/08.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-9" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/09.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-10" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/10.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-11" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/11.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-12" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/12.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-13" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/13.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-14" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/14.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-15" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/15.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-15" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/15.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-16" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/16.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-17" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/17.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-18" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/18.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-19" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/19.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-20" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/20.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-21" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/21.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-22" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/22.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-23" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/23.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-24" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/24.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-25" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/25.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-26" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/26.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-27" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/27.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-28" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/28.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-29" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/29.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-30" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/30.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-31" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/31.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-32" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/32.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-33" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/33.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-34" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/34.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <pattern id="textura-35" patternUnits="userSpaceOnUse" width="100%" height="100%">
+	      <image href="http://innovateordie.com.ar/svg/texturas/35.jpg" x="-5%" y="-5%" width="105%" height="105%"></image>
+	  </pattern>
+	  <style type="text/css">
+	  	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	  </style>
+</defs>
+<title>Artboard 2 copy 9</title>
+<path class="st0 capucha" d="M397.7,262.9C341.8,262.9,220,115.8,230,70.1c-19.6,3.4-53.5,72.6-55,80C170.4,172,328.8,262.9,397.7,262.9z"/>
+<path class="st0 cintura" d="M395.9,922.5c150.9,1,170.3,1.7,194.8,3.6l8.5-43.4c-24.4-5.2-46.3-7.2-197.2-9.9c-150.9,2.7-181,4.7-205.4,9.9
+	l8.5,43.4C229.3,924.1,245,923.5,395.9,922.5z"/>
+<path class="st0 capucha" d="M397.7,262.9c55.9,0,177.8-147.1,167.7-192.8c19.5,3.4,53.5,72.6,55,80C625.1,172,466.7,262.9,397.7,262.9z"/>
+<path class="st0 capucha" d="M397.7,260.2c53.1-3.7,170.9-140.5,164.2-190.2c-1.8-13.6-71.5-13.7-164.2-13.7s-162.2,0.1-164.1,13.7
+	C227,119.7,346.9,260.2,397.7,260.2z"/>
+<g>
+	<polygon class="st0 punos" points="76.1,880.9 166.6,880.9 153.6,955.9 86.7,955.9 	"/>
+	<path class="st0 manga-izquierda" d="M318.8,246.2l-137,178.4c5.5,56.1,9.9,294.3-15.2,453.3H76.1c-30.2-232,41.5-634.3,55.5-653.7
+		c0,0,22-46.8,54.5-51.6C195.2,185.4,273.3,229.3,318.8,246.2z"/>
+</g>
+<g>
+	<polygon class="st0 punos" points="711.9,955 645.1,955 632,880 722.6,880 	"/>
+	<path class="st0 manga-derecha" d="M479.9,245.3l137,178.4c-5.5,56.1-10,294.3,15.2,453.3h90.5c30.2-232-41.5-634.3-55.5-653.7
+		c0,0-22-46.8-54.5-51.6C603.5,184.5,525.3,228.4,479.9,245.3z"/>
+</g>
+<path class="st0 frente" d="M399.9,866.9c151.2,2,180.4,4.5,204.9,9.8c0.2-198.2,5.1-429.8,7.1-453.6L476,246.2
+	c-17.9,9.2-54.1,20.2-80.4,20.9l0,0c-26.3-0.6-54.2-9.7-72.7-19.6L188.1,423.1c2,23.8,6.9,255.4,7.1,453.6
+	C219.7,871.5,248.7,868.9,399.9,866.9z"/>
+</svg>
