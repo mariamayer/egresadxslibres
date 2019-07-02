@@ -2,7 +2,7 @@
 $remitente = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_EMAIL);
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-$destinatario = 'emilia@cooperativadedisenio.com'; // en esta línea va el mail del destinatario, puede ser una cuenta de hotmail, yahoo, gmail, etc
+$destinatario = 'libresegresadxs@hotmail.com'; // en esta línea va el mail del destinatario, puede ser una cuenta de hotmail, yahoo, gmail, etc
 $asunto = 'Pedido de presupuesto desde Egresadxs'; // acá se puede modificar el asunto del mail
 if (!$_POST){
 ?>
@@ -12,7 +12,7 @@ if (!$_POST){
 	/* ==========================  Define variables ========================== */
 
 	#Your e-mail address
-	define("__TO__", "marupezzati@gmail.com");
+	define("__TO__", "libresegresadxs@hotmail.com");
 
 	#Message subject
 	define("__SUBJECT__", "Nuevo Presupuesto");
