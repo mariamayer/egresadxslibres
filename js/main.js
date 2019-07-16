@@ -188,8 +188,8 @@ jQuery(document).ready(function ($) {
         });
 
         // Elements to inject
-        $('.svg-frente').attr('src','img/svg/'+radioValue);
-        $('.svg-espalda').attr('src','img/svg/'+espalda);
+        $('.svg-frente').attr('src','http://innovateordie.com.ar/svg/'+radioValue);
+        $('.svg-espalda').attr('src','http://innovateordie.com.ar/svg/'+espalda);
         var mySVGsToInject = $('#svg-paso-2 .svg');
         console.log(mySVGsToInject);
         var injectorOptions = {
